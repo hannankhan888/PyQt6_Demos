@@ -5,7 +5,7 @@ from PyQt6.QtWidgets import QApplication, QMainWindow
 
 class Window(QMainWindow):  # <== Notice the change in type of object
     def __init__(self, parent=None):
-        # get the __init__() of the original QWidget object, and execute it.
+        # get the __init__() of the original QMainWindow object, and execute it.
         super(Window, self).__init__(parent)
 
         self.setGeometry(100, 100, 1600, 900)
